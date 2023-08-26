@@ -1,0 +1,185 @@
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0;
+    margin: 0;
+}
+                /* navbar section */
+#navbarSupportedContent ul{
+    position: relative;
+    left: 600px;
+}
+    .navbar-brand {
+        position: relative;
+    left: 270px;
+    }
+
+@media screen and (max-width: 991px) {
+    #navbarSupportedContent ul{
+        position: relative;
+        left: 0px;
+    }
+        .navbar-brand {
+            position: relative;
+        left: 0px;
+        }
+
+    #card-tour1{
+        position: relative;
+        left: 30px !important;
+    }
+    #card-tour2{
+        position: relative;
+        left: 30px !important;
+    }
+    #card-tour3{
+        position: relative;
+        left: 30px !important;
+    }
+    #card-tour4{
+        position: relative;
+        left: 30px !important;
+    }
+}
+
+li:hover{
+ background-color: #edf3f5;
+ border-radius: 5px;
+ transition: all 1s;
+}
+
+
+        /* cover image and texts section */
+
+
+        .text-center h1{
+            font-size: 45px;
+            font-weight: 900;
+        }
+        .text-center h4{
+            font-size: 15px;
+            font-weight: 900;
+        }
+
+         .head2 h2:hover{
+           font-size: 80px !important; 
+           transition: all 1s;
+            
+        } 
+        .text-center p{
+            font-size: 15px;
+            color: rgba(129, 118, 118, 0.664);
+            
+        }
+
+        /* button */
+
+#btnb{
+    color: lightgoldenrodyellow;
+    background-color: #59a342;
+    border: none;
+    border-radius: 3px;
+    width: 100px;
+    font-weight: 100px;
+    height: 35px;
+    margin-right: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-bottom: 15px;
+} 
+
+#btnb:hover{
+    color: #ea5355;
+    background-color: white;
+    border-radius: 5px;
+    width: 120px;
+    transition: all 1s;
+} 
+#btnw{
+    color: #59a342;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    width: 100px;
+    font-weight: 100px;
+    height: 35px;
+    margin-left: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+} 
+#btnw:hover{
+    color: lightgoldenrodyellow;
+    background-color: #ea5355;
+    border-radius: 5px;
+    width: 120px;
+    transition: all 1s;
+    
+}  
+ .img1 img{
+    border-radius: 8px;
+    border-top: 5px solid rgba(226, 214, 214, 0.685);
+    box-shadow: rgba(100, 10, 10, 5) 1.95px 1.95px 100px;
+    transition: transform .2s;
+}
+.img1 img:hover{
+    border-radius: 8px;
+    border-top: 5px solid rgba(226, 214, 214, 0.685);
+    box-shadow: rgba(44, 42, 33, 5) 1.95px 1.95px 0.1px;
+    
+    -ms-transform: scale(35); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.2); 
+    transition: all 1s;
+}
+
+
+.img4 img{
+     
+    width: 300px;
+    border-radius: 8px;
+    border-top: 5px solid rgba(226, 214, 214, 0.685);
+    transition: transform .2s;
+    padding-bottom: 20px;
+    
+}
+
+.img4 img:hover{
+    border-radius: 8px;
+    border-top: 5px solid rgba(226, 214, 214, 0.685);
+    -ms-transform: scale(35); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.2); 
+    transition: all 1s;
+}
+
+
+
+
+
+
+
+
+        /* navbar dropdown menu */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+

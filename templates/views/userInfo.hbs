@@ -1,0 +1,75 @@
+{{!-- header section start --}}
+{{>header}}
+{{!-- header section end --}}
+
+
+<!-- navbar start -->
+{{>navbar}}
+<!-- navbar end -->
+
+
+class="bg-dark"
+
+<div class="container-fluid mt-5">
+    <div class="row justify-content-evenly border border-dark-subtle border-5 rounded-4 pb-5 shadow-lg p-3 mb-5 bg-body-tertiary ">
+        <div class="col-12 col-md-5 mt-5 text-center">
+            <h1>{{user}} Information</h1>
+             <table class="table mt-5">
+       
+        <tbody>
+            <tr>
+                <td class="bg-dark text-white">Full Name</td>
+                <td></td>
+                <td>{{fullname}} </td>
+            </tr>
+            <tr>
+                <td class="bg-dark text-white">User Name</td>
+                <td></td>
+                <td>{{username}} </td>
+            </tr>
+            <tr>
+                <td class="bg-dark text-white">Email</td>
+                <td></td>
+                <td>{{email}} </td>
+            </tr>
+             <tr>
+                <td class="bg-dark text-white">Age</td>
+                <td></td>
+                <td>{{age}} </td>
+            </tr>
+             <tr>
+                <td class="bg-dark text-white">Phone No</td>
+                <td></td>
+                <td>{{phone}} </td>
+            </tr>
+             <tr>
+                <td class="bg-dark text-white">Gender</td>
+                <td></td>
+                <td>{{gender}} </td>
+            </tr>
+            
+        </tbody>
+    </table>
+        </div>
+        <div class="col-12 col-md-5 mt-5 text-center">
+            <img src="/img/userpic.jpg" class="img-fluid rounded" alt="">
+        </div>
+    </div>
+</div>
+   
+
+
+
+
+
+
+
+
+
+ {{!-- chatBot section --}}
+    {{>chatBot}}
+
+
+    {{!-- footer section start --}}
+    {{>footer}}
+    {{!-- footer section end --}}

@@ -1,0 +1,41 @@
+
+<div class="container-fluid ">
+    <div class="row justify-content-evenly">
+                {{!-- alert message --}}
+           <div id="alert-message" class="{{alertClass}}">{{alertMessage}}</div>
+             
+
+        <div class="col-12 col-md-5 mt-5  ">
+
+        <div class=" p-5 bg-light"> 
+
+            <h1 class=" text-primary">Please Login here</h1>
+            <form  method="post" action="/login" class="row g-3 mt-5">
+
+                <div class="col-md-10 my-3 ">
+                    <input type="email" class="form-control" name="email" id="validationServer02" required
+                        placeholder="Email " autocomplete="off"> <span style="color: red;">{{invalidemail}}</span>
+                        
+                </div>
+
+                
+                
+                <div class="col-md-10 my-2">
+                    <input type="password" name="password" class="form-control" id="validationServer02" required
+                        placeholder="password" autocomplete="off"> <span style="color: red;">{{invalidpass}}</span>
+                </div>
+                
+                <div class="col-12 my-2 mt-3">
+                    <button class="btn btn-primary fw-bold fs-5 " type="submit">Sign in</button>
+                </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-12 col-md-5 mt-3 mb-3">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp"
+                class="img-fluid mt-5 " alt="Sample image">
+        </div>
+    </div>
+
+
+</div>
